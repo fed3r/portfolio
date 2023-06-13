@@ -1,0 +1,433 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+#root {
+  width: 100%;
+  text-align: center;
+  top: 0;
+  background-color: #001a3b;
+}
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ffffffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app {
+  text-align: center;
+}
+
+.intro{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+.description{
+  padding: 50px 0;
+  width: 100%;
+  height: 100vh;
+}
+.skills{
+  padding: 50px 0;
+  width: 100%;
+  height: 100vh;
+}
+.contact {
+  padding: 50px 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.intro {
+  background-color: #001a3b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description {
+  background-color: #001a3b;
+}
+
+.skills {
+  background-color: #001a3b;
+}
+
+.contact {
+  background-color: #001a3b;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  margin-bottom: 10px;
+}
+
+form input[type="text"], form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+  padding: 10px 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+
+img {
+  width: 600px;
+  height: auto;
+  padding-left: 150px;
+}
+
+.textIntro, .picIntro {
+  flex: 1;
+}
+
+p{font-family: 'Poppins', sans-serif;
+font-size: 60px;}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.intoButton{
+  margin-bottom: 0px;
+  position: relative;
+  top: -130px;
+  width: 10%;
+  font-size: 25px;
+}
+
+.skillImg{
+  border-radius: 50%;
+}
+
+.skilsh1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  position: relative;
+  top: -60px;
+}
+
+.imgexp{
+  width: 1422px;
+  height: 800px;
+  position: relative;
+  top: -100px;
+  left: -50px;
+}
+
+.skillp{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.skillBtn{margin-bottom: 0px;
+  position: relative;
+  top: -20px;
+  width: 10%;
+  font-size: 25px;}
+
+  .projects {
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .project-container {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    flex: 1 0 20%; 
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 650px; /* Set the height as per your requirement */
+    margin: 10px;
+    align-items: center;
+  }
+  .projectsTitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 75px;
+    margin-bottom: 0px;
+  }
+  .projectsTitle1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+  }
+  .projectDescription{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  
+  .concontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .conform{
+    flex: 1;
+    position: relative;
+    left:10%;
+    top: 100px;
+  }
+
+  .conlinks{
+    flex: 1;  
+  }
+  .conIcon{
+    flex: 1;  
+  }
+  .linkTitleCon{
+      font-family: 'Poppins', sans-serif;
+    	font-size: 40px;
+      position: relative;
+      left: 20px;
+      top: 3%;
+      padding: 20px;
+      text-align: right;
+      
+  }
+
+  .iconLi{
+    width: 100px;
+  height: 100px;
+  position: relative;
+  top: 30px;
+  left: -150px;
+  }
+  .iconMail{
+    width: 120px;
+    height: 100px;
+    position: relative;
+    top: -100px;
+    left: -250px;
+  }
+  .iconPhone{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -100px;
+  left: -50px;
+  }
+
+  .iconPdf1{
+    width: 80px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    left: -100px;
+  }
+
+  .iconPdf2{
+    width: 80px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    left: -140px;
+  }
+
+  .countryIcon1{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 60px;
+    left: -210px;
+  }
+
+  .countryIcon2{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 60px;
+    left: -265px;
+  }
+ 
+  .iconText{
+    font-size: 40px;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+  }
+
+
+
+ 
+ 
+  
+  /* Contact Form Inputs */
+  .conform input, .conform textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+  }
+  
+  /* Customizing the textarea */
+  .conform textarea {
+    height: 150px;
+    resize: none; /* disable resizing */
+  }
+  
+  /* Submit button */
+  .conform input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 625px;
+  }
+  
+  .conform input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Form Error Messages */
+  .conform span {
+    color: red;
+    margin-bottom: 10px;
+  }
+
+  .suptechimg{
+    width: 420px;
+    height: 300px;
+    position: relative;
+    left: -60px;
+    top: 10px;
+  }
+
+  .tripriceimg{
+    width: 160px;
+    height: 300px;
+    position: relative;
+    left: -45px;
+    top: -10px;
+  }
+
+    .tripricelink{
+      position: relative;
+     left: -160px;
+      top: 25px;
+      text-align: center;
+    }
+
+    .simplyimg{
+      width: 160px;
+      height: 180px;
+      position: relative;
+      left: -45px;
+      top: 40px;
+    }
+  
+      .simplylink{
+        position: relative;
+       left: -160px;
+        top: 170px;
+        text-align: center;
+      }
+
+
+      .brewimg{
+        width: 160px;
+        height: 180px;
+        position: relative;
+        left: -70px;
+        top: 10px;
+      }
+
+    
+    .projectsdes{
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+    }
+
+    .proBtn{margin-bottom: 0px;
+      position: relative;
+      top: -180px;
+      width: 12%;
+      font-size: 25px;
+    }
+
+    .ctnBtn{margin-bottom: 0px;
+      position: relative;
+      top: 20px;
+      width: 15%;
+      font-size: 25px;
+    }
+
+    .topBtn{margin-bottom: 0px;
+      position: relative;
+      top: 20px;
+      width: 12%;
+      font-size: 25px;
+    }
+    
